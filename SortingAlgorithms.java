@@ -28,16 +28,16 @@ public class SortingAlgorithms {
 	}
 	
 	
-	public static void insertionSort(int[] array) { //insertion
-		for (int i=1; i<array.length; i++) {
-			int j = i;
-			while (j>0 && array[j] < array[j-1]) {
-				array[j] += array[j-1];
-				array[j-1] = array[j] - array[j-1];
-				array[j] -= array[j-1];
-				j--;
-			}
-		}
+	public static void insertionSort(int array[]) { //insertion
+	    for (int j = 1; j < array.length; j++) {
+	        int current = array[j];
+	        int i = j-1;
+	        while ((i > -1) && (array[i] > current)) {
+	            array[i+1] = array[i];
+	            i--;
+	        }
+	        array[i+1] = current;
+	    }
 	}	
 	
 	
