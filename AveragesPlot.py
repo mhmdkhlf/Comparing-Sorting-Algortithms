@@ -1,7 +1,9 @@
+#this is the class that generated the average plot 
+
 import matplotlib.pyplot as plt
 
-array_sizes = [30, 100, 1000, 10000, 100000, 1000000]
-array_sizes = list(map(str, array_sizes))
+# the averages in these lists were calculated in the DataVisulazier class
+array_sizes = ['30', '100', '1000', '10000', '100000', '1000000']
 merge_insertion = [None, 140288, 256175, 2599687, 14540166, 1474830932]
 merge = [20833, 119512, 232650, 2535012, 19867166, 1875832015]
 selection = [15462, 147440, 591554, 36227004, 3213359366, 2*10**10]
