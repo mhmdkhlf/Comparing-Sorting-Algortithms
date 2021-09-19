@@ -38,8 +38,7 @@ public class SortingAlgorithms {
 	        }
 	        array[i+1] = current;
 	    }
-	}	
-	
+	}
 	
 	
 	private static void merge(int[] arr, int left, int mid, int right) {
@@ -81,16 +80,16 @@ public class SortingAlgorithms {
 	
 	
 	
-	private static void insertionSort(int[] array, int left, int right) {
-		for (int i=left + 1; i<right+1; i++) {
-			int j = i;
-			while (j>left && array[j] < array[j-1]) {
-				array[j] += array[j-1];
-				array[j-1] = array[j] - array[j-1];
-				array[j] -= array[j-1];
-				j--;
-			}
-		}
+	private static void insertionSort(int array[], int left, int right) { 
+	    for (int j = 1+left; j < right+1; j++) {
+	        int current = array[j];
+	        int i = j-1;
+	        while ((i > -1) && (array[i] > current)) {
+	            array[i+1] = array[i];
+	            i--;
+	        }
+	        array[i+1] = current;
+	    }
 	}
 	private static void merge2(int[] arr, int left, int mid, int right) {
 		int[] array1 = new int[mid - left + 1];
@@ -121,7 +120,7 @@ public class SortingAlgorithms {
 			arr[curr++] = array2[n++]; 
 	}
 	static int threshHold = 43;
-	public static void cleverSort(int[] array, int left, int right) {
+	public static void cleverSort(int[] array, int left, int right) { // merge/insertion
 		if (left < right) {
 			if (right - left < threshHold) {
 				insertionSort(array, left, right);
