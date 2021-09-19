@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 
+//this is the class where that times the speed of each algorithm, and it also writes the generated data to the times.txt file
 public class Timer {
 	
 	public static void main(String[] args) throws IOException {
