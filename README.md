@@ -1,6 +1,6 @@
 # Comparing-Sorting-Algortithms
 
-Assignment 1
+Assignment 1:
 CP3 assignment where I had to compare the performance of the following sorting algorithms:
   * bubble sort
   * insertion sort
@@ -8,7 +8,7 @@ CP3 assignment where I had to compare the performance of the following sorting a
   * merge sort
   * merge-insertion
 
-Assignment 2
+Assignment 2:
 CP3 assignment where I had to compare the performance of the following sorting algorithms:
   * merge sort
   * merge-insertion sort
