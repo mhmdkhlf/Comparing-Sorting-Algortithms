@@ -1,0 +1,37 @@
+Average time for sorts on arrays of size 30
+merge average: 18201 ns
+selection average: 11727 ns
+insertion average: 7056 ns
+bubble average: 21584 ns
+
+Average time for sorts on arrays of size 100
+merge_insertion average: 58986 ns
+merge average: 69831 ns
+selection average: 103290 ns
+insertion average: 61650 ns
+bubble average: 195231 ns	
+
+Average time for sorts on arrays of size 1000
+merge_insertion average: 129876 ns
+merge average: 227195 ns
+selection average: 647814 ns
+insertion average: 400266 ns
+bubble average: 1408871 ns
+
+Average time for sorts on arrays of size 10_000
+merge_insertion average: 1642954 ns
+merge average: 2655326 ns
+selection average: 35171845 ns
+insertion average: 10046600 ns
+bubble average: 160709362 ns
+
+Average time for sorts on arrays of size 100_000
+merge_insertion average: 15599237 ns
+merge average: 18529550 ns
+selection average: 3216372900 ns
+insertion average: 882877737 ns
+bubble average: 20754095272 ns
+
+Average time for sorts on arrays of size 1_000_000
+merge_insertion average: 145228860 ns
+merge average: 166428570 ns
